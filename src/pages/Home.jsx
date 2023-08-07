@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import gif from "../assests/gif3.gif"
 
 import ResumeForm from "../components/ResumeForm";
 // import Navbar from "../components/Navbar";
@@ -45,7 +46,7 @@ const Home = () => {
             <img
               alt="gif"
               className="animate-topslide -mt-24 md:mt-12 max-h-[450px]"
-              src="../assets/gif3.gif"
+              src={gif}
             />
           </div>
         )}
